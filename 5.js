@@ -3,8 +3,11 @@
 // • Su nota final es mayor o igual a 60 y
 // • Su asistencia es mayor o igual al 80%.
 // Si no cumple ambas condiciones, debe mostrar "Reprobado".
-// Pregunta de análisis: ¿Qué operador lógico garantiza que ambas condiciones se
+// Pregunta de análisis: 
+// ¿Qué operador lógico garantiza que ambas condiciones se
 // evalúen al mismo tiempo?
+
+// el operador && (and) permite unir las dos comprobaciones en una sola linea y darnos como resultado un TRUE si ambas se cumplen o FALSE en caso contrario 
 
 // Solicitar la nota al usuario
 let nota = parseInt(prompt("Ingrese la nota final:"));
